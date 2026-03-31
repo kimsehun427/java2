@@ -70,62 +70,62 @@ git add . git commit -m "수정 내용" git push
 # 컴파일 과정
 사람이 작성한 코드를 컴퓨터가 이해할 수 있도록 변환
 Java: .java → .class
-#Java의 특징
+# Java의 특징
 플랫폼 독립성 (JVM 기반)
 객체 지향 지원
 자동 메모리 관리
 다양한 라이브러리 제공
-##JDK와 JRE
-#JDK
+## JDK와 JRE
+# JDK
 개발 도구 + 실행 환경 포함
-#JRE
+# JRE
 Java 프로그램 실행 환경
-##주요 실행 도구
+## 주요 실행 도구
 javac : Java 코드 컴파일
 java : 프로그램 실행
 javadoc : 문서 생성
 jar : 파일 압축 및 관리
-##4주차 - Java 심화 개념
-#메모리 구조
+## 4주차 - Java 심화 개념
+# 메모리 구조
 Heap : 객체 저장 영역
 Stack : 변수 및 함수 실행 영역
-#자료형
-#기본 타입
+# 자료형
+# 기본 타입
 boolean, char, byte, short, int, long, float, double
-#참조 타입
+# 참조 타입
 클래스, 배열, 인터페이스 등
-#변수와 상수
+# 변수와 상수
 변수 : 값 변경 가능
 상수 : final 사용, 값 변경 불가
-#출력 방법
+# 출력 방법
 System.out.print() : 줄바꿈 없음
 System.out.println() : 줄바꿈 있음
 System.out.printf() : 형식 지정 출력
-#타입 변환
-#자동 변환
+# 타입 변환
+# 자동 변환
 작은 타입 → 큰 타입
-#강제 변환
+# 강제 변환
 (int) 3.14
 
-#입력 처리
-#System.in
+# 입력 처리
+# System.in
 기본 입력 스트림
-#Scanner
+# Scanner
 다양한 자료형 입력 가능
-#연산자
+# 연산자
 산술 : + - * / %
 비교 : > < == !=
 논리 : && || !
-#실습 코드 개요
-#Foo.java
+# 실습 코드 개요
+# Foo.java
 메서드 정의 및 호출
-#Bar.java
+# Bar.java
 상수 사용 및 계산
-#Hun.java
+# Hun.java
 형변환 확인
-#Boo.java
+# Boo.java
 입력 처리 실습
-##전체 요약
+## 전체 요약
 Git을 이용한 버전 관리 방법 학습
 Java 기본 구조 및 실행 방식 이해
 자료형, 연산, 입출력 개념 학습
