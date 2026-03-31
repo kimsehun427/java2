@@ -1,6 +1,6 @@
 # java2JAVA2 학습 정리
 202330107 김세훈
-2주차 - Git 및 GitHub 기초
+## 2주차 - Git 및 GitHub 기초
 Git 주요 개념
 Repository
 프로젝트 파일과 변경 이력을 함께 저장하는 공간
