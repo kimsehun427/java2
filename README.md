@@ -5,22 +5,22 @@
 배열의 크기, length 필드
 # 자바의 배열은 객체로 처리
 # 배열의 크기는 배열의 객체의 length 필드에 저장
-int intArray[];
-intArray = new int[5];
+```java int intArray[];
+intArray = new int[5]; ```
 
-int size = intArray.length;
+```java int size = intArray.length;
 //size는 5
 *length 필드를 이용하여 배열의 모든 값을 출력하는 사례 
 for(int i=0; i<intArray.length; i++) // intArray 배열 크기만큼 루프를 돈다.
-    System.out.pri55ntln(intArray[i]);
+    System.out.pri55ntln(intArray[i]);      ```
 
 # 배열과 for-each문
 for-each문 : 배열이나 나열의 원소를 순차 접근하는데 유용한 for 문
 for-each문으로 정수 배열의 합을 구하는 사례
-int [] n = {1,2,3,4,5};
+```java int [] n = {1,2,3,4,5};
 int sum = 0;
 for (int k : n) {
-        sum += k;}
+        sum += k;} ```
 
 # 2차원 배열 
 2차원 배열 선언
@@ -28,10 +28,10 @@ ont intArray[][]; 또는 int[][] intArray;
 2차원 배열 생성
 intArray = new int[2][5];   ,   int intArray[] = new int[2][5]; // 배열 선언과 생성 동시
 2차원 배열의 구조 
-int i[][] = new int[2][5];
+``` int i[][] = new int[2][5];
 int size1 = 1.length; //2
 int size2 = i[0].iength; //5
-int size3 = i[1].length; //5
+int size3 = i[1].length; //5    ```
 2차원이 배열의 length 필드
 i.length > 2차원 배열의 행의 개수로,2
 i[n].length > n번째 행의 열의 개수
@@ -49,9 +49,9 @@ i[1].length > 1번째 행의 열의 개수, 5
 -리턴하는 배열 타입과 리턴 받는 배열 타입 일치
 -리턴 타입에 배열의 크기를 지정하지 않음
 
-int[] makeArray() {
+```java int[] makeArray() {
     int temp[] = new int[4];
-    return temp;}
+    return temp;}   ```
 
 # 자바의 예외 처리
 예외: 실행 중 오작동이나 결과에 악영향을 미치는 예상치 못한 상황 발생 
@@ -67,7 +67,7 @@ int[] makeArray() {
 # 자바의 예외 처리, try-catch-finally문
 예외 처리 : 발생한 예외에 대해 개발자가 작성한 프로그램 코드에서 대응하는 것
 try-catch-finally문 사용. finally블록은 생략 가능.
-rty{
+try{
     예외가 발생한 가능성이 있는 실행문(rty 블록)
 }
 catch (처리할 예외 타입 선언) {
@@ -83,13 +83,13 @@ finally {
     배열의 범위를 벗어남 원소를 접근하는 예외 처리
     ArrayIndexOutOfBoundsException 예외
     
-    int intArray [] = new int[5];
+```java int intArray [] = new int[5];
     tyy{
         intArray[3] = 10; // 예외 발생하지 않음
         intArray[6] = 5; // 예외 발생 (이 문장 실행시 ArrayIndexOutOfBoundsException 예외발생)
     }
 catch(ArrayIndexOutOfBoundsException.e) {// 객체 e에 예외 정보가 넘어옴
-        System.out.println("배열의 범위를 초과하여 원소를 접근하였습니다.");
+        System.out.println("배열의 범위를 초과하여 원소를 접근하였습니다."); ```
 }
 예제 3-13
 
