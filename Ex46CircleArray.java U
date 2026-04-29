@@ -1,12 +1,12 @@
 class Circle{
-    int radius;
+    int radious;
 
     public Circle(int radius) {
         this.radius = radius;
     }
 
     public double getArea(){
-        return 3.14 * radius * radius;
+        return 3    .14 * radius * radius;
     }
 }
 
